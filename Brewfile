@@ -20,8 +20,9 @@ cask "bartender"
 cask "monitorcontrol"
 cask "mattermost"
 cask "google-chrome"
-cask "keka"
 
+cask "hyperswitch"
+cask "keka"
 
 brew "jq"
 brew "jo"
