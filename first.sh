@@ -5,3 +5,12 @@
 
 ## oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+#https://sourabhbajaj.com/mac-setup/Java/sdkman.html
+curl -s "https://get.sdkman.io" | bash
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+
+brew bundle

@@ -1,6 +1,7 @@
 cask_args appdir: "/Applications"
 
 # Tap Homebrew
+tap "getantibody/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -8,23 +9,50 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+# System
+brew "mas"
+brew "zsh"
+brew "node"
+brew "nvm"
+brew "curl"
+brew "wget"
+brew "git"
+brew "openssl"
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "binutils"
+brew "blueutil"
+brew "coreutils"
+brew "ctags"
+brew "curl"
+brew "deno"
 
 cask "visual-studio-code"
 cask "rectangle"
 cask "alfred"
 cask "tower"
 cask "1password"
-cask "iTerm2"
+cask "iterm2"
 cask "spotify"
 cask "bartender"
 cask "monitorcontrol"
 cask "mattermost"
 cask "google-chrome"
-
+cask "openvpn-connect"
+cask "alt-tab"
 cask "hyperswitch"
 cask "keka"
+cask "font-consolas-for-powerline"
+cask "font-fira-code"
+cask "font-roboto-mono"
+cask "font-roboto-mono-for-powerline"
+cask "zoomus"
 
 brew "jq"
 brew "jo"
 
 brew "yarn"
+
+# App Store
+mas "CudaLaunch", id: 1159394411  
