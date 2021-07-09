@@ -41,6 +41,7 @@ brew "hub"
 brew "php@7.2"
 brew "pipenv"
 brew "rbenv"
+brew "antigen"
 
 # fonts
 brew "font-consolas-for-powerline"

@@ -15,8 +15,8 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
-# copy aliases
-cp .aliases ~/.aliases
-source ~/.aliases
-
 brew bundle
+
+# copy aliases
+
+cp -R aliases ~/aliases/
