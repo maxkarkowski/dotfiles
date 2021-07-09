@@ -1,4 +1,5 @@
 cask_args appdir: "/Applications"
+cask_args fontdir: "/Library/Fonts"
 
 # Tap Homebrew
 tap "getantibody/tap"
@@ -8,12 +9,12 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "congstar/devops-tools", "git@gitlab.aoe.com:project/congstar-congo/tool/brew.git"
 
 # System
-brew "mas"
+brew "mas" # mac app store formular
 brew "zsh"
 brew "node"
-brew "nvm"
 brew "curl"
 brew "wget"
 brew "git"
@@ -27,6 +28,28 @@ brew "coreutils"
 brew "ctags"
 brew "curl"
 brew "deno"
+brew "adr-tools"
+brew "congstar/devops-tools/bcorpclient"
+brew "reattach-to-user-namespace"
+brew "watchman"
+brew "yarn"
+brew "zsh"
+brew "gradle"
+brew "zsh-completions"
+brew "httpd", restart_service: true
+brew "hub"
+brew "php@7.2"
+brew "pipenv"
+brew "rbenv"
+
+# fonts
+brew "font-consolas-for-powerline"
+brew "font-fira-code"
+brew "font-roboto-mono"
+brew "font-roboto-mono-for-powerline"
+brew "font-inconsolata"
+brew "font-menlo-for-powerline"
+brew "font-fira-mono-for-powerline"
 
 cask "visual-studio-code"
 cask "rectangle"
@@ -44,10 +67,7 @@ cask "tunnelblick"
 cask "alt-tab"
 cask "hyperswitch"
 cask "keka"
-cask "font-consolas-for-powerline"
-cask "font-fira-code"
-cask "font-roboto-mono"
-cask "font-roboto-mono-for-powerline"
+
 cask "zoomus"
 
 brew "jq"
@@ -56,4 +76,9 @@ brew "jo"
 brew "yarn"
 
 # App Store
-mas "CudaLaunch", id: 1159394411  
+mas "Adobe Lightroom", id: 1451544217
+mas "Amphetamine", id: 937984704
+mas "Cardhop", id: 1290358394
+mas "Fantastical", id: 975937182
+mas "Monosnap", id: 540348655
+mas "TweetDeck", id: 485812721
