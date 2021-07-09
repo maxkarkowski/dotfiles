@@ -22,12 +22,6 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
-function rundb {
-  cd ~/projects/congstar-congo-devbox
-  vagrant up
-  vagrant ssh -- -t 'sudo /var/share/scripts/restart-all-services.sh'
-}
-
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
