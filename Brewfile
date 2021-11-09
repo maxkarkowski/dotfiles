@@ -9,7 +9,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "congstar/devops-tools", "git@gitlab.aoe.com:project/congstar-congo/tool/brew.git"
 
 # System
 brew "mas" # mac app store formular
@@ -41,7 +40,6 @@ brew "hub"
 brew "php@7.2"
 brew "pipenv"
 brew "rbenv"
-brew "antigen"
 
 # fonts
 brew "font-consolas-for-powerline"
@@ -58,7 +56,6 @@ cask "alfred"
 cask "tower"
 cask "1password"
 cask "iterm2"
-cask "spotify"
 cask "bartender"
 cask "monitorcontrol"
 cask "mattermost"
@@ -68,6 +65,8 @@ cask "tunnelblick"
 cask "alt-tab"
 cask "hyperswitch"
 cask "keka"
+cask "tweetbot"
+cask "meeter"
 
 cask "zoomus"
 
@@ -82,4 +81,3 @@ mas "Amphetamine", id: 937984704
 mas "Cardhop", id: 1290358394
 mas "Fantastical", id: 975937182
 mas "Monosnap", id: 540348655
-mas "TweetDeck", id: 485812721
