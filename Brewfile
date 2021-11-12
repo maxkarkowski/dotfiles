@@ -40,6 +40,7 @@ brew "hub"
 brew "php@7.2"
 brew "pipenv"
 brew "rbenv"
+brew "remotemobprogramming/brew/mob"
 
 # fonts
 brew "font-consolas-for-powerline"
