@@ -9,6 +9,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "homebrew/cask-fonts"
 
 # System
 brew "mas" # mac app store formular
@@ -68,6 +69,7 @@ cask "hyperswitch"
 cask "keka"
 cask "tweetbot"
 cask "meeter"
+cask "font-hack-nerd-font"
 
 cask "zoomus"
 
