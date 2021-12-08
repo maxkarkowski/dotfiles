@@ -14,10 +14,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ####################################
 # Locations
 
-# Screenshot location
-test -d "${HOME}/Pictures/screenshots" || mkdir -p "${HOME}/Pictures/screenshots"
-defaults write com.apple.screencapture location -string "${HOME}/Pictures/screenshots"
-
 # Show the ~/Library folder
 chflags nohidden ~/Library
 

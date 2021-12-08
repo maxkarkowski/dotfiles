@@ -79,7 +79,6 @@ brew "jo"
 brew "yarn"
 
 # App Store
-mas "Adobe Lightroom", id: 1451544217
 mas "Amphetamine", id: 937984704
 mas "Cardhop", id: 1290358394
 mas "Fantastical", id: 975937182
