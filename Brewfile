@@ -36,12 +36,12 @@ brew "yarn"
 brew "zsh"
 brew "gradle"
 brew "zsh-completions"
-brew "httpd", restart_service: true
 brew "hub"
 brew "php@7.2"
 brew "pipenv"
 brew "rbenv"
 brew "remotemobprogramming/brew/mob"
+brew "pnpm"
 
 # fonts
 brew "font-consolas-for-powerline"
@@ -55,31 +55,36 @@ brew "font-fira-mono-for-powerline"
 cask "visual-studio-code"
 cask "rectangle"
 cask "alfred"
-cask "tower"
-cask "1password"
-cask "iterm2"
+cask "warp"
 cask "bartender"
 cask "monitorcontrol"
 cask "mattermost"
 cask "google-chrome"
 cask "openvpn-connect"
-cask "tunnelblick"
 cask "alt-tab"
-cask "hyperswitch"
 cask "keka"
 cask "tweetbot"
 cask "meeter"
 cask "font-hack-nerd-font"
-
+cask "shottr"
+cask "aldente"
+cask "microsoft-teams"
+cask "local"
+cask "figma"
+cask "orion"
+cask "firefox"
+cask "alt-tab"
+cask "postman"
+cask "forklift"
+cask "rambox"
+cask "miro"
+cask "handbrake"
+cask "cakebrew"
+cask "onyx"
+cask "slack"
+cask "diffmerge"
 cask "zoomus"
 
 brew "jq"
 brew "jo"
 
-brew "yarn"
-
-# App Store
-mas "Amphetamine", id: 937984704
-mas "Cardhop", id: 1290358394
-mas "Fantastical", id: 975937182
-mas "Monosnap", id: 540348655
