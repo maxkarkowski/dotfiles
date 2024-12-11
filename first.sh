@@ -6,13 +6,13 @@ chsh -s $(which zsh)
 
 ## oh-my-zsh
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl -L git.io/antigen > antigen.zsh
+#curl -L git.io/antigen > antigen.zsh
 
 
 #https://sourabhbajaj.com/mac-setup/Java/sdkman.html
-curl -s "https://get.sdkman.io" | bash
+#curl -s "https://get.sdkman.io" | bash
 
-source "$HOME/.sdkman/bin/sdkman-init.sh"
+#source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
